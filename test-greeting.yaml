@@ -1,8 +1,8 @@
 apiVersion: gvramana.io/v1alpha1
 kind: Greeting
 metadata:
-  name: aman-greeting
+  name: aman-greetings
 spec:
-  emailToGreet: ramana.gali@gmail.com
+  emailToGreet: aman.kumar@velotio.com
   messageToGreet: or bro kya haal chal
   replicas: 1
