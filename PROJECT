@@ -1,0 +1,16 @@
+domain: amankumar.dev
+layout:
+- go.kubebuilder.io/v3
+projectName: k8s-assignment4
+repo: K8s-Assignment4
+resources:
+- api:
+    crdVersion: v1
+    namespaced: true
+  controller: true
+  domain: amankumar.dev
+  group: cnat
+  kind: At
+  path: K8s-Assignment4/api/v1alpha1
+  version: v1alpha1
+version: "3"
